@@ -38,16 +38,15 @@ const Index = () => {
 
       {/* Hero Section */}
       <section className="relative py-20 lg:py-32 bg-gradient-hero overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-secondary/5 opacity-50"></div>
         <div className="container mx-auto px-4 text-center relative z-10">
           <Badge variant="secondary" className="mb-6 text-sm font-medium">
             ✨ Custom Website Design & Development
           </Badge>
-          <h1 className="text-4xl lg:text-6xl font-poppins font-bold text-white mb-6 leading-tight">
+          <h1 className="text-4xl lg:text-6xl font-poppins font-bold text-foreground mb-6 leading-tight">
             Transform Your Vision Into a
             <span className="text-accent"> Stunning Website</span>
           </h1>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xl text-foreground/90 mb-8 max-w-2xl mx-auto leading-relaxed">
             Professional, custom-built websites that capture your brand's essence and convert visitors into customers. 
             Modern design meets powerful functionality.
           </p>
@@ -60,7 +59,7 @@ const Index = () => {
             >
               Start Your Project <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button variant="outline" size="lg" className="bg-white/10 border-white/30 text-white hover:bg-white/20">
+            <Button variant="secondary" size="lg" className="text-lg px-8 py-4 h-auto">
               View Our Work
             </Button>
           </div>

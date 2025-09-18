@@ -39,6 +39,10 @@ export default {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
         },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
+        },
         popover: {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))",
@@ -57,6 +61,21 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        "gradient-cosmic": "var(--gradient-cosmic)",
+        "gradient-cosmic-dark": "var(--gradient-cosmic-dark)",
+        "gradient-gold": "var(--gradient-gold)",
+        "gradient-hero": "var(--gradient-hero)",
+      },
+      boxShadow: {
+        "cosmic": "var(--shadow-cosmic)",
+        "gold": "var(--shadow-gold)",
+        "soft": "var(--shadow-soft)",
+      },
+      fontFamily: {
+        "poppins": ["Poppins", "sans-serif"],
+        "lora": ["Lora", "serif"],
       },
       borderRadius: {
         lg: "var(--radius)",

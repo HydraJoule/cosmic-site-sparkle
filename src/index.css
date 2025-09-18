@@ -9,32 +9,46 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 234 65% 29%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 234 65% 29%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 234 65% 29%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 231 48% 48%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 200 79% 82%;
+    --secondary-foreground: 234 65% 29%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 231 20% 96%;
+    --muted-foreground: 234 25% 55%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 51 100% 50%;
+    --accent-foreground: 234 65% 29%;
+
+    --success: 145 60% 81%;
+    --success-foreground: 234 65% 29%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 231 20% 90%;
+    --input: 231 20% 95%;
+    --ring: 231 48% 48%;
+
+    /* Cosmic gradients */
+    --gradient-cosmic: linear-gradient(135deg, hsl(231 48% 48%), hsl(200 79% 82%));
+    --gradient-cosmic-dark: linear-gradient(135deg, hsl(234 65% 29%), hsl(231 48% 48%));
+    --gradient-gold: linear-gradient(135deg, hsl(51 100% 50%), hsl(45 100% 60%));
+    --gradient-hero: linear-gradient(135deg, hsl(231 48% 48%) 0%, hsl(200 79% 82%) 50%, hsl(145 60% 81%) 100%);
+
+    /* Cosmic shadows */
+    --shadow-cosmic: 0 20px 40px -12px hsl(231 48% 48% / 0.25);
+    --shadow-gold: 0 10px 30px -10px hsl(51 100% 50% / 0.3);
+    --shadow-soft: 0 4px 20px -2px hsl(231 20% 20% / 0.1);
 
     --radius: 0.5rem;
 
